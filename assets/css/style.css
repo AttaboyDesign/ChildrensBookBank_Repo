@@ -1155,9 +1155,14 @@ color:#D85327
   color:#D85327
 }
 
-.new stuff {
-  a;ldkfjlkdfj
-  ;alsdkjf;aldsfkja
-  alsdfj;alsdfj
-  ;lasdjf;la
+.navbar-mobile {
+  background: #5A6439;
+}
+
+.navbar-mobile ul {
+  background: #5A6439;
+}
+
+.navbar-mobile a {
+  color:#F8F7F4;
 }
