@@ -14,7 +14,7 @@ html {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #9fa1a4;
+  color: #000000;
   line-height: 1.5;
 }
 
@@ -447,9 +447,6 @@ section {
 
 /* Blog */
 
-.hero-text h1 h2 {
-color: #5A6439 !important;
-}
 
 .post-entry {
   margin-bottom: 60px;
@@ -892,6 +889,8 @@ color: #5A6439 !important;
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+
+
 .hero-section {
   /*background: linear-gradient(to right, rgba(39, 70, 133, 0.8) 0%, rgba(61, 179, 197, 0.8) 100%), url(../img/hero-bg.jpg);*/
   position: relative;
@@ -899,8 +898,9 @@ color: #5A6439 !important;
 
 .volunteer-page {
   background-image: url(../img/VolunteerHero@2x.png);
-  background-position: bottom;
-  object-fit: cover;
+  background-size:cover;
+  background-repeat: no-repeat;
+
 }
 
 .hero-section .wave {
@@ -1139,4 +1139,18 @@ color:#cfcdcd;
 
 .social a i {
   line-height: 0;
+}
+
+/* Kevin's custom code */
+
+body {
+  background-color: #F8F7F4;
+}
+
+.hero-text h1{
+color:#D85327
+}
+
+.testify h2 {
+  color:#D85327
 }
