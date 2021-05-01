@@ -1148,8 +1148,17 @@ body {
   background-color: #F8F7F4;
 }
 
-.hero-text h1{
-color:#D85327
+.hero-text h1 {
+color:#D85327;
+text-align: left;
+}
+
+.hero-text h2 {
+  text-align:left;
+}
+
+.hero-text p {
+  text-align:left;
 }
 
 .testify h2 {
@@ -1166,4 +1175,25 @@ color:#D85327
 
 .navbar-mobile a {
   color:#F8F7F4;
+}
+
+@media screen and (max-width: 992px) {
+  .hero-text h1{
+    font-size: 40pt !important;
+    }
+    
+}
+
+/*tara's code*/
+
+.breadcrumb {
+  margin-bottom: 7%;
+  font-size: x-small;
+  font-family: roboto, sans-serif;
+  text-transform: uppercase;
+  color:#231F20;
+}
+
+.breadcrumb-item .active .page {
+  color: #D85327;
 }
