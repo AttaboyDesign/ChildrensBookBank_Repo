@@ -714,7 +714,7 @@ section {
   padding: 10px 0 10px 30px;
   font-size: 12px;
   font-weight: 700;
-  color: #b3b3b3;
+  color: #F8F7F4;
   white-space: nowrap;
   transition: 0.3s;
   /* text-transform: uppercase; */
@@ -1146,3 +1146,5 @@ text-align: left;
 .breadcrumb-item .active .page {
   color: #D85327;
 }
+
+
