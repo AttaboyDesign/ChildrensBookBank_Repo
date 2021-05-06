@@ -6,7 +6,7 @@
 */
 
   /**
-   * Preloader
+   * Preloader for fade out on page loading
    */
 
 function fade() {
