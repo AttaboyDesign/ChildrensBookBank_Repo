@@ -5,6 +5,16 @@
 * License: https://bootstrapmade.com/license/
 */
 
+  /**
+   * Preloader
+   */
+
+function fade() {
+  $('#loader-wrapper').fadeOut("slow");
+  }
+  setTimeout(fade, 3000);
+console.log("document loaded!");
+
 
 
 (function() {
