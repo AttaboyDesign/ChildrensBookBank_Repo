@@ -9,16 +9,18 @@
    * Preloader for fade out on page loading
    */
 
-function fade() {
-  $('#loader-wrapper').fadeOut("slow");
-  }
-  setTimeout(fade, 3000);
-console.log("document loaded!");
+
 
 
 
 (function() {
   "use strict";
+
+  function fade() {
+    $('#loader-wrapper').fadeOut("slow");
+    }
+    setTimeout(fade, 3000);
+  console.log("document loaded!");
 
   
   /**
