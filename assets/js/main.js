@@ -16,12 +16,6 @@
 (function() {
   "use strict";
 
-  function fade() {
-    $('#loader-wrapper').fadeOut("slow");
-    }
-    setTimeout(fade, 3000);
-  console.log("document loaded!");
-
   
   /**
    * Easy selector helper function
